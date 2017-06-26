@@ -7,5 +7,6 @@ lazy val root = (project in file(".")).
 
     scalaVersion := dottyVersion,
 
+    libraryDependencies += "ch.epfl.lamp" % "dotty-compiler_0.1" % dottyVersion,
     libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
   )

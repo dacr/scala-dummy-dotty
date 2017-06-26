@@ -14,6 +14,8 @@ object Main {
     println("Hello world!")
     println(msg)
     println(mt.toString)
+    
+    CompileNLoad.test()
   }
 
   def msg = "I was compiled by dotty :)"
